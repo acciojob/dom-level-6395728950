@@ -2,7 +2,7 @@
 
 const element = document.getElementById("level");
 let level = 0;
-while(element.parentNode){
+while(element){
   element = element.parentNode;
   level++;
 }
